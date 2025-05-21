@@ -4,7 +4,7 @@ function calcularMedia() {
   const ag = parseFloat(document.getElementById("ag").value) || 0;
   const afInput = document.getElementById("af").value;
 
-  const parcial = (ac1 * 0.15) + (ac2 * 0.35) + (ag * 0.05);
+  const parcial = (ac1 * 0.15) + (ac2 * 0.30) + (ag * 0.10);
 
   if (afInput === "") {
     const notaNecessaria = (5 - parcial) / 0.45;
