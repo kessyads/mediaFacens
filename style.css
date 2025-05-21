@@ -1,40 +1,55 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    padding: 20px;
-    max-width: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef1f5;
+    padding: 30px;
+    max-width: 520px;
     margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     text-align: center;
-    color: #333;
+    color: #2c3e50;
+}
+
+.descricao {
+    text-align: center;
+    color: #555;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
 
 label {
     display: block;
     margin-top: 15px;
     color: #333;
+    font-weight: 500;
 }
 
 input[type="number"] {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     margin-top: 5px;
-    border-radius: 4px;
+    border-radius: 6px;
     border: 1px solid #ccc;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+    font-size: 15px;
 }
 
 button {
-    margin-top: 20px;
-    padding: 10px;
+    margin-top: 25px;
+    padding: 12px;
     width: 100%;
     background-color: #007BFF;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -42,9 +57,9 @@ button:hover {
 }
 
 #resultado {
-    margin-top: 20px;
+    margin-top: 25px;
     font-weight: bold;
     text-align: center;
     font-size: 18px;
-    color: #222;
+    color: #2c3e50;
 }
